@@ -18,6 +18,12 @@
             </div>
             <button type="submit">Generate Password</button>
         </form>
+        {% if passwords %}
+        <h2>Saved Passwords</h2>
+        {% for p in passwords %}
+        <div class="password-box">{{p.password}}</div>
+        {% endfor %}
+        {% endif %}
     </div>
 </body>
 

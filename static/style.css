@@ -30,6 +30,12 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    margin-top: 24px;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
 label {
     display: block;
     margin-bottom: 6px;
